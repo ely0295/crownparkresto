@@ -1,0 +1,133 @@
+#bot {
+  animation: fadeIn 0.5s;
+  display:none;
+  height: 500px;
+  width: 330px;
+  background: red;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 9;
+}
+.open-button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  z-index: 9;
+  border-radius:50%;
+}
+/* Make container slightly rounded. Set height and width to 90 percent of .bots' */
+#container {
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  background: white;
+}
+
+/* Style header section */
+#header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 60px;
+  background: black;
+  color: white;
+  text-align: left;
+  font-size: 14pt;
+  padding:10px;
+  font-weight:bold
+}
+
+/* Style body */
+#body {
+  width: 100%;
+  height: 75%;
+  background-color: #E5E7EB;
+  overflow-y: auto;
+}
+
+/* Style container for user messages */
+.userSection {
+  width: 100%;
+  
+}
+
+/* Seperates user message from bot reply */
+.seperator {
+  width: 100%;
+  height: 50px;
+}
+
+/* General styling for all messages */
+.messages {
+  max-width: 60%;
+  margin: .5rem;
+  font-size: 12pt;
+  padding: .5rem;
+  border-radius: 7px;
+}
+
+/* Targeted styling for just user messages */
+.user-message {
+  margin-top: 1rem;
+  text-align: right;
+  background:  #cc0000;
+  color: white;
+  float: right;
+  animation: fadeIn 0.5s;
+}
+
+/* Targeted styling for just bot messages */
+.bot-reply {
+  text-align: left;
+  background: #E5E7EB;
+  margin-top: 1rem;
+  float: left;
+  color: black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.closechat{
+	border-radius:50%;
+	padding:0px;
+}
+/* Style the input area */
+#inputArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  background: transparent;
+}
+
+/* Style the text input */
+#userInput {
+  height: 50px;
+  width: 70%;
+  background-color: white;
+  border-radius: 6px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style send button */
+#send {
+  height: 50px;
+  padding: .5rem;
+  font-size: 12pt;
+  text-align: center;
+  width: 30%;
+  color: white;
+  background: #b30000;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
